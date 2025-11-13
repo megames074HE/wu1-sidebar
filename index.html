@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar Layout</title>
+    <title>Resume</title>
     <link href="https://fonts.cdnfonts.com/css/pricedown" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,9 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="wrapper">
@@ -23,23 +24,73 @@
     <main class="wrapper with-sidebar">
         <aside class="sidebar">
             <img class="trevor-profile-pic" src="trevor_profile.webp" alt="trevor philips">
-            <p>Trevor</p>
-            <p>Philips</p>
-            <p></p>
+            <div class="name-info">
+                <p>Trevor</p>
+                <p>Philips</p>
+            </div>
+            <div class="personal-information">
+                <p class="personal-title">personal information</p>
+                <p class="sidebar-description">Trevor Philips</p>
+                <p class="sidebar-description">November 14, 1967</p>
+                <p class="sidebar-description">Canadian</p>
+                
+            </div>
+            <div class="personal-information">
+                <p class="personal-title">Contact Info</p>
+                <p class="sidebar-description">Phone: (555) 762-1983</p>
+                <p class="sidebar-description">Email: trev@eyefind.info</p>
+                <a href="/application.html"  class="sidebar-description">Read my application letter here</a>
+
+            </div>
 
         </aside>
         <article class="not-sidebar">
             <div class="not-sidebar-content">
                 <h3>Professional Experience</h3>
                 <ul> 
-                    <p>Experienced pilot</p>
-                    <b>-Pilot training at Canadian Air</b>
+                    <p class="experience-title">Experienced pilot</p>
+                    <ul>
+                        <p class="experience-description">-Pilot training at Canadian Air</p>
+                        <p class="experience-description">-Experienced flying cargo</p>
+                    </ul>
                 </ul>
-                <h3>Professional Experience</h3>
                 <ul> 
-                    <p>väldigt cool</p>
-                    <b>-ba chill</b>
-                    
+                    <p class="experience-title">Trevor Philips Enterprises</p>
+                    <p class="experience-info">founder and CEO, Sandy Shores | 2004 - present</p>
+                    <ul>
+                        <p class="experience-description">-Managed relationships with various local and international partners, including government officials.</p>
+                        <p class="experience-description">-Expanded market share in highly competitive regins through direct negotiation and forceful persuasion.</p>
+                    </ul>
+                </ul>
+                <ul> 
+                    <p class="experience-title">Freelance Contracts</p>
+                    <p class="experience-info">1994 - 2004</p>
+                    <ul>
+                        <p class="experience-description">-Developed survival, tracking and intimidation techniques applicable to fieldwork and crisis management.</p>
+                        <p class="experience-description">-Engaged in international logistics projects involving discreet transport and high value asset recovery.</p>
+                    </ul>
+                </ul> 
+                <h3>Education</h3>
+                <ul>
+                    <p class="experience-title">Royal Canadian Air Force Flight Academy</p>
+                    <ul>
+                        <p class="experience-description">-Aviation & Combat Training</p>
+                    </ul>
+                    <p class="experience-title">Self Taught</p>
+                    <ul>
+                        <p class="experience-description">-Business Management, Weapons Engineering, and Anger optimization</p>
+                    </ul>
+                </ul>
+                <h3>References</h3>
+                <ul>
+                    <p class="experience-title">Michael De Santa</p>
+                    <ul>
+                        <p class="experience-description">-Retired Associate, Los Santos</p>
+                    </ul>
+                    <p class="experience-title">Ron Jakowski</p>
+                    <ul>
+                        <p class="experience-description">-Assistant & Business Partner</p>
+                    </ul>
                 </ul>
             </div>
 
