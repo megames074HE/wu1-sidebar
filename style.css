@@ -137,3 +137,43 @@ header {
     
 
 }
+
+
+.about {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-radius: 5rem;
+    
+    border-width: 2rem;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+}
+
+.about h3 {
+    text-align: center;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+
+}
+
+.about p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.about a {
+    text-align: center;
+    margin-left: 2rem;
+
+}
+
+.about img {
+    width: 10rem;
+    margin-left: 40rem;
+    margin-top: -10rem;
+}
